@@ -10,18 +10,22 @@ Bu proje, **React** ile geliştirilmiş basit bir **Döviz Çevirici Uygulaması
 - Dönüştürülen miktar gerçek zamanlı olarak görüntülenir.
 - Kullanıcı dostu ve responsive bir arayüz sunar.
 
-doviz-cevirici/
-├── public/
-├── src/
-│   ├── components/
-│   │   └── Currency.jsx       # Döviz çevirici ana bileşeni
-│   ├── css/
-│   │   └── currency.css       # Uygulama için stiller
-│   ├── App.js                 # Ana bileşen
-│   └── index.js               # Giriş noktası
-├── package.json
-└── README.md                  # Dokümantasyon
+# Döviz Çevirici Projesi
 
+Bu proje, kullanıcıların farklı döviz birimleri arasında kolayca çevrim yapabilmelerini sağlayan bir web uygulamasıdır.
+
+```plaintext
+doviz-cevirici/
+├── public/                  # Statik dosyalar (HTML, resimler, vs.)
+├── src/                     # Uygulama kaynak kodları
+│   ├── components/          # React bileşenleri
+│   │   └── Currency.jsx     # Döviz çevirici ana bileşeni
+│   ├── css/                 # Stil dosyaları
+│   │   └── currency.css     # Uygulama için stiller
+│   ├── App.js               # Ana bileşen
+│   └── index.js             # Giriş noktası
+├── package.json             # Proje bağımlılıkları ve scriptler
+└── README.md                # Proje dokümantasyonu
 
 ## Kullanılan Teknolojiler
 
